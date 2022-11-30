@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // Controller Token Operation Standard
 protocol IERC1644: IERC20 {

@@ -4,7 +4,7 @@
 //
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 /// Custom Web3 HTTP provider of Infura nodes.
 public final class InfuraProvider: Web3HttpProvider {

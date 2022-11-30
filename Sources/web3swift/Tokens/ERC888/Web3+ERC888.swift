@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // MultiDimensional Token Standard
 protocol IERC888 {

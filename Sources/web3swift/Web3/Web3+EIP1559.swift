@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 /// EIP-1559 Base fee extension
 ///

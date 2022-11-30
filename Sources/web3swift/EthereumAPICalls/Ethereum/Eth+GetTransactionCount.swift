@@ -5,7 +5,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 extension Web3.Eth {
     public func getTransactionCount(for address: EthereumAddress, onBlock: BlockNumber = .latest) async throws -> BigUInt {

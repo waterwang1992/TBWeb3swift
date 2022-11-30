@@ -6,7 +6,9 @@
 //
 
 import UIKit
-import web3swift
+import TBWeb3swift
+import TBWeb3SwiftCore
+
 class WalletViewController: UIViewController {
     
     @IBOutlet weak var continueButton: UIButton!
@@ -84,7 +86,7 @@ class WalletViewController: UIViewController {
             return
         }
         do {
-            let keystore =  try EthereumKeystoreV3(privateKey: dataKey)
+            let keystore =  try EthereumKeystoreV3(privateKey: dataKey, password: "haha")
             if let myWeb3KeyStore = keystore {
                 let manager = KeystoreManager([myWeb3KeyStore])
                 let address = keystore?.addresses?.first
@@ -114,7 +116,7 @@ class WalletViewController: UIViewController {
         
     }
     func importWalletWith(mnemonics: String) {
-        let walletAddress = try? BIP32Keystore(mnemonics: mnemonics , prefixPath: "m/44'/77777'/0'/0")
+        let walletAddress = try? BIP32Keystore(mnemonics: mnemonics, password: "haha" , prefixPath: "m/44'/77777'/0'/0")
         print(walletAddress?.addresses as Any)
         self.walletAddressLabel.text = "\(walletAddress?.addresses?.first?.address ?? "0x")"
         
@@ -136,7 +138,7 @@ extension WalletViewController {
                 }
                 self._mnemonics = tMnemonics
                 print(_mnemonics)
-                let tempWalletAddress = try? BIP32Keystore(mnemonics: self._mnemonics , prefixPath: "m/44'/77777'/0'/0")
+                let tempWalletAddress = try? BIP32Keystore(mnemonics: self._mnemonics, password: "haha" , prefixPath: "m/44'/77777'/0'/0")
                 print(tempWalletAddress?.addresses?.first?.address as Any)
                 guard let walletAddress = tempWalletAddress?.addresses?.first else {
                     self.showAlertMessage(title: "", message: "We are unable to create wallet", actionName: "Ok")
@@ -147,7 +149,7 @@ extension WalletViewController {
 #if DEBUG
                 print(privateKey as Any, "Is the private key")
 #endif
-                let keyData = try? JSONEncoder().encode(tempWalletAddress?.keystoreParams)
+                let keyData = try? JSONEncoder().encode((tempWalletAddress?.keystoreParams)!)
                 FileManager.default.createFile(atPath: userDir + "/keystore"+"/key.json", contents: keyData, attributes: nil)
             }
         } catch {

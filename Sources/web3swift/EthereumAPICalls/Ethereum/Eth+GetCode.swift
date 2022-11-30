@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import Core
+import TBWeb3SwiftCore
 import BigInt
 
 extension Web3.Eth {

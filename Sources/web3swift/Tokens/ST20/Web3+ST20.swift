@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // NPolymath Token Standard
 protocol IST20: IERC20 {

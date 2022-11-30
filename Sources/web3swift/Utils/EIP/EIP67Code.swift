@@ -6,7 +6,7 @@
 import Foundation
 import CoreImage
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 extension Web3 {
 

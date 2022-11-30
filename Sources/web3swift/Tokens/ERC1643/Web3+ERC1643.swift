@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // Document Management Standard
 protocol IERC1643: IERC20 {

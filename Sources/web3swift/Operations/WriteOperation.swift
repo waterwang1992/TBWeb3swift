@@ -5,7 +5,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 /// Wrapper for `EthererumTransaction.data` property appropriate encoding.
 public class WriteOperation: ReadOperation {

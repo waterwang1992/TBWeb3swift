@@ -6,7 +6,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 public struct Web3Signer {
     public static func signTX(transaction: inout CodableTransaction,

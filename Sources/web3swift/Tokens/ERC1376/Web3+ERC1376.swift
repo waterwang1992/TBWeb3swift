@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 public enum IERC1376DelegateMode: UInt {
     case PublicMsgSender = 0

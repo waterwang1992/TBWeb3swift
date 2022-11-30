@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // FIXME: Rewrite this to CodableTransaction
 public extension ENS {

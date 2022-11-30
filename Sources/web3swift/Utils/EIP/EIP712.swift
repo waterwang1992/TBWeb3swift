@@ -1,7 +1,7 @@
 import CryptoSwift
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 /// Protocol defines EIP712 struct encoding
 public protocol EIP712Hashable {

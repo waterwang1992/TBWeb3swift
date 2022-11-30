@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 public class PolicyResolver {
     private let provider: Web3Provider

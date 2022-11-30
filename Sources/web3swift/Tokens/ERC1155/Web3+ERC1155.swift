@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import Core
+import TBWeb3SwiftCore
 
 // Multi Token Standard
 // FIXME: Rewrite this to CodableTransaction
