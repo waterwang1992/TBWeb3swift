@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 public extension ENS {
     class ReverseRegistrar {

@@ -3,17 +3,17 @@ PODS:
   - CryptoSwift (1.5.1)
   - secp256k1.c (0.1.2)
   - Starscream (4.0.4)
-  - TBWeb3swift (3.0.6):
+  - Web3swift (3.0.6):
     - Starscream (~> 4.0.4)
-    - TBWeb3SwiftCore (~> 3.0.6)
-  - TBWeb3SwiftCore (3.0.6):
+    - Web3swiftCore (~> 3.0.6)
+  - Web3swiftCore (3.0.6):
     - BigInt (~> 5.2.0)
     - CryptoSwift (~> 1.5.1)
     - secp256k1.c (~> 0.1)
 
 DEPENDENCIES:
-  - TBWeb3swift (from `../../../TBWeb3swift`)
-  - TBWeb3SwiftCore (from `../../../TBWeb3swift`)
+  - Web3swift (from `../../../TBWeb3swift`)
+  - Web3swiftCore (from `../../../TBWeb3swift`)
 
 SPEC REPOS:
   trunk:
@@ -23,9 +23,9 @@ SPEC REPOS:
     - Starscream
 
 EXTERNAL SOURCES:
-  TBWeb3swift:
+  Web3swift:
     :path: "../../../TBWeb3swift"
-  TBWeb3SwiftCore:
+  Web3swiftCore:
     :path: "../../../TBWeb3swift"
 
 SPEC CHECKSUMS:
@@ -33,9 +33,9 @@ SPEC CHECKSUMS:
   CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
   secp256k1.c: db47b726585d80f027423682eb369729e61b3b20
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
-  TBWeb3swift: 2f1fd8406ab8241e9d00ffe0eeb69069f96840d2
-  TBWeb3SwiftCore: 024ade5bff7f52f3760a9a17c0d02fb441858af5
+  Web3swift: cc29f43ea1f12d3eb25091b5b7a1e28ba0138f9d
+  Web3swiftCore: d69843e94f81f0e83bc16977051924afd1aebe8d
 
-PODFILE CHECKSUM: eb94bbce556e1396ed34e1b4ff50c5181a7246e1
+PODFILE CHECKSUM: 3c4f8cb1156bd0e0e8efb0c97901e1d87513643e
 
 COCOAPODS: 1.11.3

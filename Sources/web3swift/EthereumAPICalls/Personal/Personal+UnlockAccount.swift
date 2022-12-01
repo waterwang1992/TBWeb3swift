@@ -5,7 +5,7 @@
 
 import Foundation
 import BigInt
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 extension Web3.Personal {
     public func unlock(account: EthereumAddress, password: String, seconds: UInt = 300) async throws -> Bool {

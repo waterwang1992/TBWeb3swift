@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 // Core Security Token Standard
 protocol IERC1594: IERC20 {

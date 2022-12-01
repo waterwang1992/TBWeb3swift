@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import TBWeb3swift
-import TBWeb3SwiftCore
+import Web3swift
+import Web3swiftCore
 
 class WalletViewController: UIViewController {
     

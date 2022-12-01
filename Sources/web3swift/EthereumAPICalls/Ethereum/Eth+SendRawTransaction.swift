@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 extension Web3.Eth {
     public func send(raw data: Data) async throws -> TransactionSendingResult {

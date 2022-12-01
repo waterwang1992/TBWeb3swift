@@ -261,7 +261,7 @@ extension ABI.Element {
 
 extension ABI.Element.Function {
     public func decodeInputData(_ rawData: Data) -> [String: Any]? {
-        return TBWeb3SwiftCore.decodeInputData(rawData, methodEncoding: methodEncoding, inputs: inputs)
+        return Web3swiftCore.decodeInputData(rawData, methodEncoding: methodEncoding, inputs: inputs)
     }
 
     public func decodeReturnData(_ data: Data) -> [String: Any]? {
@@ -336,7 +336,7 @@ extension ABI.Element.Function {
 
 extension ABI.Element.Constructor {
     public func decodeInputData(_ rawData: Data) -> [String: Any]? {
-        return TBWeb3SwiftCore.decodeInputData(rawData, inputs: inputs)
+        return Web3swiftCore.decodeInputData(rawData, inputs: inputs)
     }
 }
 

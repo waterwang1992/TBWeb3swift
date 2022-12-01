@@ -7,7 +7,7 @@
 
 import Foundation
 import BigInt
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 // Re-Fungible Token Standard (RFT)
 // FIXME: Rewrite this to CodableTransaction

@@ -8,8 +8,8 @@ target 'myWeb3Wallet' do
   # Pods for myWeb3Wallet
 #pod 'web3swift', :git => 'https://github.com/waterwang1992/TBWeb3swift.git', :branch => 'tb_3_0_6'
 
-  pod 'TBWeb3swift', :path => '../../../TBWeb3swift', :inhibit_warnings => true
-   pod 'TBWeb3SwiftCore', :path => '../../../TBWeb3swift', :inhibit_warnings => true
+  pod 'Web3swift', :path => '../../../TBWeb3swift', :inhibit_warnings => true
+   pod 'Web3swiftCore', :path => '../../../TBWeb3swift', :inhibit_warnings => true
 
   target 'myWeb3WalletTests' do
     inherit! :search_paths

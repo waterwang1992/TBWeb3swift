@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
     spec.compiler_flags = '-DCOCOAPODS'
 
-    spec.name         = 'TBWeb3SwiftCore'
+    spec.name         = 'Web3swiftCore'
     spec.version      = '3.0.6'
-    spec.module_name  = 'TBWeb3SwiftCore'
+    spec.module_name  = 'Web3swiftCore'
     spec.ios.deployment_target = "13.0"
     spec.osx.deployment_target = "10.15"
     spec.license      = { :type => 'Apache License 2.0', :file => 'LICENSE.md' }

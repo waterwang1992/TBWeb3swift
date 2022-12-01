@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 /// An arbitary Web3 object. Is used only to construct provider bound fully functional object by either supplying provider URL
 /// or using pre-coded Infura nodes

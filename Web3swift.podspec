@@ -1,7 +1,7 @@
 WEB3CORE_VERSION ||= '3.0.6'
 
 Pod::Spec.new do |spec|
-    spec.name         = 'TBWeb3swift'
+    spec.name         = 'Web3swift'
     spec.version      = WEB3CORE_VERSION
     spec.ios.deployment_target = "13.0"
     spec.osx.deployment_target = "10.15"
@@ -18,5 +18,5 @@ Pod::Spec.new do |spec|
     spec.resource_bundle = { "Browser" => "Sources/web3swift/Browser/*.js" }
     spec.frameworks = 'CoreImage'
     spec.dependency 'Starscream', '~> 4.0.4'
-    spec.dependency 'TBWeb3SwiftCore', "~> #{WEB3CORE_VERSION}"
+    spec.dependency 'Web3swiftCore', "~> #{WEB3CORE_VERSION}"
 end

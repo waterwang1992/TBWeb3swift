@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 // Pseudo-introspection using a registry contract
 protocol IERC820: IERC165 {

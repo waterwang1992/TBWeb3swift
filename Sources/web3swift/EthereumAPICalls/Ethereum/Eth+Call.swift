@@ -4,7 +4,7 @@
 //
 
 import Foundation
-import TBWeb3SwiftCore
+import Web3swiftCore
 
 extension Web3.Eth {
     public func callTransaction(_ transaction: CodableTransaction) async throws -> Data {
